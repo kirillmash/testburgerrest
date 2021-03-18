@@ -24,6 +24,7 @@ http://localhost//api/auth_token/
 `GET /api/menu/
 
 Получение меню.
+
 http://localhost/api/menu/
 
 
