@@ -56,15 +56,17 @@ http://localhost/api/order/
     ]
 }
 
+```
 
 `POST /change_price/<int:pk>/
 
 Изменение стоимости блюда по ID.
 
+Необходимы права администратора.
 
 http://localhost/change_price/<int:pk>/
 
-```
+
 
 ```
 Условия задания.
