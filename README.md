@@ -16,21 +16,21 @@ Application will be available at http://127.0.0.1
 
 `POST /api/auth_token/`
 
-###### Получение токена.
+##### Получение токена.
 
 http://localhost//api/auth_token/  
 
 
 `GET /api/menu/`
 
-###### Получение меню.
+##### Получение меню.
 
 http://localhost/api/menu/
 
 
 `POST /api/order/`
 
-###### Создание заказа.
+##### Создание заказа.
 
 http://localhost/api/order/
 
@@ -61,7 +61,7 @@ http://localhost/api/order/
 
 `POST /change_price/<int:pk>/`
 
-###### Изменение стоимости блюда по ID.
+##### Изменение стоимости блюда по ID.
 
 ### Необходимы права администратора.
 
