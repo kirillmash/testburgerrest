@@ -1,0 +1,55 @@
+[
+    { "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "user2",
+            "password": "password2",
+			"first_name": "user2",
+			"last_name": "user2"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "user3",
+            "password": "password3",
+			"first_name": "user3",
+			"last_name": "user3"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "user4",
+            "password": "password4",
+			"first_name": "user4",
+			"last_name": "user4"
+        }
+    },
+	{"model": "api.restaurant", "pk": 1, "fields": {"name": "Burgers1", "address": "Saint-Petersburg"}},
+	{"model": "api.restaurant", "pk": 2, "fields": {"name": "Burgers2", "address": "Saint-Petersburg"}},
+	{"model": "api.restaurant", "pk": 3, "fields": {"name": "Burgers3", "address": "Moscow"}}, 
+	{"model": "api.restaurant", "pk": 4, "fields": {"name": "Burgers4", "address": "Moscow"}},
+	{"model": "api.restaurant", "pk": 5, "fields": {"name": "Burgers5", "address": "Moscow"}}, 
+	{"model": "api.restaurant", "pk": 6, "fields": {"name": "Burgers6", "address": "Moscow"}},
+	{"model": "api.restaurant", "pk": 7, "fields": {"name": "Burgers7", "address": "Moscow"}}, 
+	{"model": "api.restaurant", "pk": 8, "fields": {"name": "Burgers8", "address": "Moscow"}},
+	{"model": "api.restaurant", "pk": 9, "fields": {"name": "Burgers9", "address": "Moscow"}},
+	{"model": "api.restaurant", "pk": 10, "fields": {"name": "Burgers10", "address": "Saint-Petersburg"}},
+	{"model": "api.category", "pk": 1, "fields": {"name": "Салаты"}}, 
+	{"model": "api.category", "pk": 2, "fields": {"name": "Гриль"}}, 
+	{"model": "api.category", "pk": 3, "fields": {"name": "Супы"}}, 
+	{"model": "api.category", "pk": 4, "fields": {"name": "Десерты"}},
+	{"model": "api.subcategory", "pk": 1, "fields": {"name": "Бургеры", "category": 2}},
+	{"model": "api.subcategory", "pk": 2, "fields": {"name": "Холодные", "category": 3}},
+	{"model": "api.subcategory", "pk": 3, "fields": {"name": "Горячие", "category": 3}},
+	{"model": "api.dish", "pk": 1, "fields": {"name": "Burgers1", "category": 2, "subcategory": 1, "description": "Куриный бургер", "price": "333.00", "in_menu": false}},
+	{"model": "api.dish", "pk": 2, "fields": {"name": "Burgers2", "category": 2, "subcategory": 1, "description": "Бургер из говядины", "price": "222.00", "in_menu": true}},
+	{"model": "api.dish", "pk": 3, "fields": {"name": "Burgers3", "category": 2, "subcategory": 1, "description": "Бургер из индейки", "price": "500.00", "in_menu": true}}, 
+	{"model": "api.dish", "pk": 4, "fields": {"name": "Цезарь", "category": 1, "subcategory": null, "description": "Классический салат", "price": "777.00", "in_menu": true}}, 
+	{"model": "api.dish", "pk": 5, "fields": {"name": "ТомЯм", "category": 3, "subcategory": 3, "description": "Острый азиатский суп", "price": "600.00", "in_menu": true}},
+	{"model": "api.dish", "pk": 6, "fields": {"name": "Наполеон", "category": 4, "subcategory": null, "description": "Нежный десерт", "price": "450.00", "in_menu": true}},
+	{"model": "api.dish", "pk": 7, "fields": {"name": "Burger 777", "category": 2, "subcategory": 1, "description": "Фирменный бурегр", "price": "999.00", "in_menu": true}}
+  
+
+]
