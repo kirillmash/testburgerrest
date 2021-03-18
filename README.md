@@ -14,21 +14,21 @@ Application will be available at http://127.0.0.1
 Для каждого запроса необходим Token.
 
 
-`POST /api/auth_token/
+`POST /api/auth_token/`
 
 Получение токена.
 
 http://localhost//api/auth_token/  
 
 
-`GET /api/menu/
+`GET /api/menu/`
 
 Получение меню.
 
 http://localhost/api/menu/
 
 
-`POST /api/order/
+`POST /api/order/`
 
 Создание заказа.
 
@@ -59,7 +59,7 @@ http://localhost/api/order/
 
 ```
 
-`POST /change_price/<int:pk>/
+`POST /change_price/<int:pk>/`
 
 Изменение стоимости блюда по ID.
 
