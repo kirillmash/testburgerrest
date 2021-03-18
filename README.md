@@ -65,7 +65,8 @@ http://localhost/api/order/
 
 ### Необходимы права администратора.
 
-http://localhost/change_price/<int:pk>/
+
+http://localhost/api/change_price/2/
 
 
 
